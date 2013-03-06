@@ -26,10 +26,13 @@ namespace Toyota_Vehicle_Tracking_System
             label1.Text = "You picked " + checkedListBox1.SelectedIndex;
         }
     }
-
+    //This WILL need to be a separate file with MANY functions
     public class Car
     {
-        enum Model { Corolla, Camry, Test };
+        public enum Model { 4Runner, Avalon, Avalon Hybrid, Camry, Camry Hybrid, Corolla, FJ Cruiser, Highlander,
+                            Highlander Hybrid, Land Cruiser, Matrix, Prius, Prius C, Prius Plug-in, Prius V, RAV 4
+                            RAV 4 EV, Sequoia, Sienna, Tacoma, Tundra, Venza, Yaris};
+        bool 
     }
     
     
